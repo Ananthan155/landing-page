@@ -138,13 +138,25 @@ div{
 .action-text {
     display: flex;
     flex-direction: column;
-    gap: 8px; /* Adds space between the title and paragraph */
+    gap: 8px;
 }
 
 .action-text h3, .action-text p {
-    margin: 0; /* Removes default browser spacing */
+    margin: 0;
 }
 
 .action-button {
-    margin-left: auto; /* Pushes the button to the far right */
+    margin-left: auto;
+}
+
+.footer-container{
+    background-color: #1F2937;
+    
+}
+
+footer{
+    display: flex;
+    width: 100%;
+    flex-shrink: 0; 
+    justify-content: center;
 }
